@@ -147,7 +147,7 @@ func main() {
 	}
 	fmt.Printf("[:] Writing %d CIDRs to file...\n", len(CIDRSv4))
 	writeLines(CIDRSv4, "cidrs.txt")
-
+/*
 	var ips []string
 	fmt.Println("[:] Converting to IPs...")
 	for _, cidr := range CIDRSv4 {
@@ -162,6 +162,7 @@ func main() {
 
 	fmt.Printf("[:] Writing %d IPs to file...\n", len(ips))
 	writeLines(ips, "ips.txt")
+	*/
 
 	fmt.Println("[!] Done.")
 }
